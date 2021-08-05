@@ -1,0 +1,7 @@
+<div>
+  <h1>Products List</h1>
+  <hr>
+  <section class="card p-3 mb-2" *ngFor="let product of products">
+    <app-product [product]="product"></app-product>
+  </section>
+</div>
